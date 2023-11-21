@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="project-grid">
           <Card1
             id="card1-1"
-            img={process.env.PUBLIC_URL + "images/shefmart.png"}
+            img={ process.env.PUBLIC_URL + "images/shefmart.png"}
           />
           <Card2
             className="card2-cont card2-1"
