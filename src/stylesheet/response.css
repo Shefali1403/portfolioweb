@@ -1,0 +1,416 @@
+@media screen and (min-width: 899px) and (max-width: 1040px) {
+  .main-cont .content {
+    width: 75vw;
+  }
+  .main-cont .but button {
+    height: 5vh;
+  }
+  .about-cont .image {
+    width: 22vw;
+  }
+  .about-cont .image img {
+    width: 23.7vw;
+    height: 22.6vh;
+  }
+  .about-cont .btn1 {
+    height: 5vh;
+  }
+  .about-cont .btn2 {
+    height: 5vh;
+  }
+  .skill-cont {
+    height: 11vh;
+  }
+  .footer-cont {
+    height: 8vh;
+  }
+}
+@media screen and (min-width: 799px) and (max-width: 898px) {
+  .navbar-cont {
+    height: 9vh;
+  }
+
+  .main-cont .content {
+    width: 85vw;
+    font-size: 0.9rem;
+  }
+  .main-cont .but button {
+    height: 5vh;
+  }
+  .about-cont .image {
+    width: 22vw;
+  }
+  .about-cont .image img {
+    width: 23.7vw;
+    height: 22.6vh;
+  }
+  .about-cont .buttons {
+    margin-right: 3rem;
+  }
+  .about-cont .btn1 {
+    height: 5vh;
+    width: 14vw;
+  }
+  .about-cont .btn2 {
+    height: 5vh;
+    width: 16vw;
+  }
+  .projects-cont {
+    height: 203vh;
+  }
+  .projects-cont .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 80vw;
+    height: 175vh;
+    row-gap: 1rem;
+  }
+  .project-grid .card1-cont {
+    width: 50vw;
+    height: 20vh;
+    margin-left: 6rem;
+  }
+  .project-grid .card1-cont img {
+    width: 50vw;
+    height: 19.6vh;
+  }
+  .project-grid .card2-cont {
+    height: 23vh;
+    width: 50vw;
+    margin-left: 6rem;
+  }
+  .project-grid #card1-2 {
+    right: 0%;
+  }
+  .skill-cont {
+    height: 10vh;
+  }
+  .contact-cont {
+    height: 74vh;
+  }
+  .contact-grid {
+    width: 32vw;
+  }
+  .footer-cont {
+    height: 7vh;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 798px) {
+  .navbar-cont {
+    height: 9vh;
+  }
+  .navbar-cont .logo h1 {
+    font-size: 1rem;
+  }
+
+  .main-cont .content {
+    width: 100vw;
+    font-size: 0.8rem;
+  }
+  .main-cont .but button {
+    width: 20vw;
+    margin-top: 4rem;
+    height: 5vh;
+  }
+  .about-cont .image {
+    width: 31vw;
+  }
+  .about-cont .image img {
+    width: 29.7vw;
+    height: 22.6vh;
+  }
+  .about-cont .buttons {
+    margin-right: 3rem;
+  }
+  .about-cont .btn1 {
+    height: 5vh;
+    width: 14vw;
+  }
+  .about-cont .btn2 {
+    height: 5vh;
+    width: 16vw;
+  }
+  .projects-cont {
+    height: 203vh;
+  }
+  .projects-cont .project-heading {
+    right: 11%;
+  }
+  .projects-cont .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 80vw;
+    height: 175vh;
+    row-gap: 1rem;
+  }
+  .project-grid .card1-cont {
+    width: 50vw;
+    height: 20vh;
+    margin-left: 6rem;
+  }
+  .project-grid .card1-cont img {
+    width: 50vw;
+    height: 19.6vh;
+  }
+  .project-grid .card2-cont {
+    height: 23vh;
+    width: 50vw;
+    margin-left: 6rem;
+  }
+  .project-grid #card1-2 {
+    right: 0%;
+  }
+  .skill-cont {
+    height: 10vh;
+  }
+  .contact-cont {
+    height: 74vh;
+  }
+  .contact-grid {
+    width: 29vw;
+    font-size: 0.7rem;
+  }
+  .footer-cont {
+    height: 7vh;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 599px) {
+  .navbar-cont {
+    height: 5vh;
+  }
+  .navbar-cont .menu ul li {
+    margin: 0.4rem;
+    font-size: 0.4rem;
+  }
+  .navbar-cont .logo h1 {
+    font-size: 0.6rem;
+  }
+
+  .main-cont .heading h1 {
+    font-size: 3rem;
+  }
+  .main-cont .content {
+    width: 100vw;
+    font-size: 0.4rem;
+  }
+  .main-cont .links {
+    margin-right: 3rem;
+  }
+  .main-cont .but button {
+    width: 30vw;
+    margin-top: 3rem;
+    height: 5vh;
+  }
+  .about-cont .image {
+    width: 35vw;
+  }
+  .about-cont .image img {
+    width: 35vw;
+    height: 20vh;
+  }
+  .about-cont .buttons {
+    margin-right: 6rem;
+  }
+  .about-cont .btn1 {
+    height: 5vh;
+    width: 25vw;
+  }
+  .about-cont .name {
+    margin-top: 0rem;
+  }
+  .about-cont .btn2 {
+    height: 5vh;
+    width: 25vw;
+    font-size: 0.3rem;
+  }
+  .projects-cont {
+    height: 203vh;
+  }
+  .projects-cont .project-heading {
+    right: 0%;
+  }
+  .projects-cont h2 {
+    font-size: 0.7rem;
+  }
+  .projects-cont h1 {
+    font-size: 1rem;
+  }
+  .projects-cont .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 80vw;
+    height: 175vh;
+    row-gap: 1rem;
+  }
+  .project-grid .card1-cont {
+    width: 80vw;
+    height: 20vh;
+    margin-left: 0rem;
+  }
+  .project-grid .card1-cont img {
+    width: 80vw;
+    height: 20vh;
+  }
+  .project-grid .card2-cont {
+    height: 23vh;
+    width: 60vw;
+    margin-left: 2rem;
+  }
+  .card2-cont p {
+    font-size: 0.5rem;
+  }
+  .project-grid .card2-1 .tech {
+    column-gap: 1rem;
+  }
+  .project-grid #card1-2 {
+    right: 0%;
+  }
+  .skill-cont {
+    height: 10vh;
+  }
+  .skill-cont .p1 h1 {
+    font-size: 0.7rem;
+  }
+  .contact-cont {
+    height: 75vh;
+  }
+  .contact-cont .contact-title p {
+    font-size: 0.6rem;
+  }
+  .contact-cont .contact-title h2 {
+    font-size: 0.8rem;
+  }
+  .contact-grid {
+    width: 32vw;
+    height: 5vh;
+    font-size: 0.4rem;
+  }
+  .footer-cont {
+    height: 7vh;
+  }
+  .footer-content p {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 299px) and (max-width: 399px) {
+  .navbar-cont {
+    height: 5vh;
+  }
+  .navbar-cont .menu ul li {
+    margin: 0.4rem;
+    font-size: 0.4rem;
+  }
+  .navbar-cont .logo h1 {
+    font-size: 0.6rem;
+  }
+  .main-cont .heading h1 {
+    font-size: 3rem;
+  }
+  .main-cont .content {
+    width: 100vw;
+    font-size: 0.4rem;
+  }
+  .main-cont .links {
+    margin-right: 3rem;
+  }
+  .font {
+    font-size: 15px;
+  }
+  .main-cont .but button {
+    width: 30vw;
+    margin-top: 3rem;
+    height: 5vh;
+    font-size: 0.7rem;
+  }
+  .about-cont .image {
+    width: 35vw;
+  }
+  .about-cont .image img {
+    width: 35vw;
+    height: 20vh;
+  }
+  .about-cont .buttons {
+    margin-right: 6rem;
+  }
+  .about-cont .btn1 {
+    height: 5vh;
+    width: 25vw;
+    font-size: 0.3rem;
+  }
+  .about-cont .name {
+    margin-top: 0rem;
+  }
+  .about-cont .btn2 {
+    height: 5vh;
+    width: 25vw;
+    font-size: 0.3rem;
+  }
+  .projects-cont {
+    height: 203vh;
+  }
+  .projects-cont .project-heading {
+    right: 0%;
+  }
+  .projects-cont h2 {
+    font-size: 0.7rem;
+  }
+  .projects-cont h1 {
+    font-size: 1rem;
+  }
+  .projects-cont .project-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 80vw;
+    height: 175vh;
+    row-gap: 1rem;
+  }
+  .project-grid .card1-cont {
+    width: 80vw;
+    height: 20vh;
+    margin-left: 0rem;
+  }
+  .project-grid .card1-cont img {
+    width: 80vw;
+    height: 20vh;
+  }
+  .project-grid .card2-cont {
+    height: 23vh;
+    width: 60vw;
+    margin-left: 2rem;
+  }
+  .card2-cont p {
+    font-size: 0.5rem;
+  }
+  .project-grid .card2-1 .tech {
+    column-gap: 1rem;
+  }
+  .project-grid #card1-2 {
+    right: 0%;
+  }
+  .skill-cont {
+    height: 10vh;
+  }
+  .skill-cont .p1 h1 {
+    font-size: 0.7rem;
+  }
+  .contact-cont {
+    height: 75vh;
+  }
+  .contact-cont .contact-title p {
+    font-size: 0.6rem;
+  }
+  .contact-cont .contact-title h2 {
+    font-size: 0.8rem;
+  }
+  .contact-grid {
+    width: 32vw;
+    height: 5vh;
+    font-size: 0.4rem;
+  }
+  .footer-cont {
+    height: 7vh;
+  }
+  .footer-content p {
+    font-size: 0.5rem;
+  }
+}
