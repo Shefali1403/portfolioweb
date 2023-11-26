@@ -53,6 +53,19 @@ const Projects = () => {
             link="https://github.com/Shefali1403/proj1"
             plink="https://projectecomerce.netlify.app"
           />
+              <Card2
+            className="card2-cont card2-1"
+            title="People Management App"
+            content="It is an app with UI designed using purely server-side languages i.e. Node.js and Express.js. The app fetches data from the server and displays it on the table"
+            tech1="Nodejs"
+            tech2="RestAPI"
+            link="https://github.com/Shefali1403/nodejssite"
+            plink="https://github.com/Shefali1403/nodejssite"
+          />
+            <Card1
+            id="card1-3"
+            img={process.env.PUBLIC_URL + "images/node.png"}
+          />
         </div>
       </div>
     </>

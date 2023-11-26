@@ -169,7 +169,7 @@
   align-items: center;
   /* border:2px solid red;  */
   width: 100vw;
-  height: 230vh;
+  height: 240vh;
   background-color: white;
 }
 .projects-cont .project-heading {
@@ -191,10 +191,15 @@
 .projects-cont .project-grid {
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 5rem;
 }
 .project-grid #card1-2 {
+  /* background-color: pink;  */
+  position: relative;
+  right: 37%;
+}
+.project-grid #card1-3 {
   /* background-color: pink;  */
   position: relative;
   right: 37%;
