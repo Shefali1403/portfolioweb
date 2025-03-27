@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+@import "tailwindcss";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "EB Garamond", serif !important;
+}
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-bg {
+  background: linear-gradient(
+    270deg,
+    #f0eeee,
+    #928b9c,
+    hsl(25, 11%, 78%),
+    #4e3372,
+    #a4b3b6,
+    #412566
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+
+.secondary {
+  color: #69a79c;
+}
+.primary {
+  color: #f7ba34;
+}
+.dark {
+  color: #333333;
+}
+.dark2 {
+  color: #999999;
+}
+.port {
+  font-family: "Dancing Script", cursive;
+}
+.but-cont {
+  padding: 10px 25px;
+  color: white;
+  background-color: #989fce;
+  box-shadow: 5px 6px 10px #330066;
+}
+.hero-head {
+  text-shadow: 2px 2px 3px yellow;
+}
+.hero-but-div {
+  margin-top: 3rem;
+}
+.service-tech-sec {
+  margin-top: 3rem;
+}
+.project-sec {
+  height: 110rem;
+}
+.project-card {
+  margin-left: 3rem;
+}
+.demo-but {
+  padding: 10px 25px;
+  color: white;
+  background-color: #989fce;
+  box-shadow: 2px 3px 10px #330066;
+  margin-top: 1rem;
+}
+.para-project {
+  margin-top: 2rem;
+}
+.anchor {
+  margin-top: 2rem;
+}
+.tech-stack-css {
+  margin-top: 2rem;
+}
+.footer-sec {
+  /* margin-top: 5rem;  */
+}
