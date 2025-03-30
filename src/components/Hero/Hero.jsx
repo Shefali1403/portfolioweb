@@ -34,10 +34,9 @@ const Hero = () => {
           variants={FadeUp({ delay: 0.6 })}
           initial="initial"
           animate="animate"
-          className="text-4xl hero-head lg:text-6xl text-white font-bold leading-snug overflow-hidden"
+          className="text-4xl hero-head md:text-2xl text-center md:text-start lg:text-5xl text-white font-bold leading-snug overflow-hidden"
         >
-          Let's Learn to build a <span className="text-secondary">Website</span>{" "}
-          for your business
+          Full Stack <span className="text-secondary">JAVA DEVELOPER</span>{" "}
         </motion.h1>
         <motion.div
           variants={FadeUp({ delay: 0.8 })}
